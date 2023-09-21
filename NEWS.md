@@ -1,5 +1,16 @@
 # NEWS
 
+1.19.1 - 2023-09-21
+-------------------
+
+- feature: add `no_proxy_env` option to bypass proxy environment settings
+
+1.19.0 - 2023-09-20
+-------------------
+
+- fix: recv: if expected size < BufSize fallback to old behaviour. Fix issue with negative length
+- feature: add support for proxy environment setting
+
 1.18.2 - 2023-08-29
 -------------------
 
